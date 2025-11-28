@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>학교 분실물 보관소</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🏫 학교 분실물 보관소</h1>
+
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="물건 이름으로 검색">
+        </div>
+
+        <h2>분실물 목록</h2>
+        <ul id="lostItems"></ul>
+
+        <h2>분실물 등록하기</h2>
+        <form id="registerForm">
+            <input type="text" id="itemName" placeholder="물건 이름" required>
+            <input type="text" id="itemDescription" placeholder="물건 설명" required>
+            <button type="submit">등록하기</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
